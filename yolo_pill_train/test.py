@@ -1,9 +1,9 @@
 from ultralytics import YOLO
 
-model = YOLO("C:/Users/knifo/Desktop/BH13tesk/Pill_image/yolo_pill_train/pill_detection/yolo_pill_v7/weights/best.pt")
+model = YOLO(*yolo_pill_v7/weights/best.pt")
 
 results = model.predict(
-    source="C:/Users/knifo/Desktop/BH13tesk/Pill_image/yolo_pill_train/sample/3293.png",
+    source="*/sample/sampleimage.png",
     conf=0.2,
     save=True,
     show=True
